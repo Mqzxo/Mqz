@@ -1,0 +1,60 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo della pagina */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container principale */
+.container {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Main */
+main p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* QR Code */
+#qr-code {
+  margin: 1rem auto;
+  width: 200px;
+  height: 200px;
+}
+
+/* Testo piccolo */
+.small-text {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #aaa;
+}
